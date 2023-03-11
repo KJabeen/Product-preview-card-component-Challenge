@@ -60,11 +60,14 @@ body{
     min-height: 465px;
     height: 465px;
     background-image: url(image-product-desktop.jpg);
-    background-size: contain;
+/*     background-size: contain;
     object-fit: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+    background-image: cover;
+    background-size: 100%;
+    object-fit: cover;
     
 }
 .image{
